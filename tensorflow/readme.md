@@ -16,3 +16,7 @@ python 3+
 0维张量即常量为：`[1.]`；1维张量即向量为：`[1, 2]`；2维张量即矩阵：`[[1, 2], [3, 4]]`。
 ### 激励函数
 如：relu, sigmoid, tanh等
+
+## Eager execution start
+
+快速使用eager execution模式做简单的鸢尾花分类：[code](./tensorflow-official/eager_execution_start.ipynb)
