@@ -14,4 +14,4 @@ Matplotlib可以画出以下:
 
 ## Examples
 
-查看[code](./examples.ipynb)获得例子代码与演示
+查看例子代码与演示：[code.ipynb](./examples.ipynb)
