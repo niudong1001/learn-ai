@@ -6,5 +6,12 @@
 
 机器学习算法可分为：
 
-- 监督学习算法：[code.ipynb](./supervised_learning.ipynb)
+- 监督学习算法
+  + 回归：[code.ipynb](./regression.ipynb)
+
 - 无监督学习算法
+
+## 附加内容
+
+特征处理：[code.ipynb](./features_process.ipynb)  
+线性代数：[code.ipynb](./linear_algebra.ipynb)
