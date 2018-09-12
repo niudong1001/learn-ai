@@ -2,11 +2,24 @@
 
 存储在学习AI中的例子代码
 
-## machine-learning
+## Machine-Learning
 
-see [machine-learning](./machine-learning/readme.md)
+### Overview
 
-## matplotlib
+机器学习算法可分为：
+
+- 监督学习算法
+
+  + 回归：[code.ipynb](./machine-learning/regression.ipynb)
+
+- 无监督学习算法
+
+### 附加内容
+
+特征处理：[code.ipynb](./machine-learning/features_process.ipynb)  
+线性代数：[code.ipynb](./machine-learning/linear_algebra.ipynb)
+
+## Matplotlib
 
 ### Overview
 
@@ -24,10 +37,10 @@ Matplotlib可以画出以下:
 
 查看例子代码与演示：[code.ipynb](./matplotlib/examples.ipynb)
 
-## opencv
+## Opencv
 
 see [opencv](./opencv/readme.md)
 
-## tensorflow
+## Tensorflow
 
 see [tensorflow](./tensorflow/readme.md)
