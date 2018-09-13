@@ -8,6 +8,7 @@
 
 - 监督学习算法
   + 回归：[code.ipynb](./regression.ipynb)
+  + 分类：[code.ipynb](./classification.ipynb)
 
 - 无监督学习算法
 
