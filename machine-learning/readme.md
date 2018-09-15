@@ -10,7 +10,7 @@
   + 回归：[code.ipynb](./regression.ipynb)
   + 分类：[code.ipynb](./classification.ipynb)
 
-- 无监督学习算法
+- 神经网络：[code.ipynb](./neural_network.ipynb)
 
 ## 附加内容
 
