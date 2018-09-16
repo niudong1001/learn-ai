@@ -11,8 +11,11 @@
   + 分类：[code.ipynb](./classification.ipynb)
   + SVM: [code.ipynb](./svm.ipynb)
   + 神经网络：[code.ipynb](./neural_network.ipynb)
+  + 决策树：[code.ipynb](./decision_tree.ipynb)
 
-- 决策树：[code.ipynb](./decision_tree.ipynb)
+- 集成学习算法
+  + 随机森林：
+  + GBDT:
 
 ## 附加内容
 
