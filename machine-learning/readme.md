@@ -9,8 +9,10 @@
 - 监督学习算法
   + 回归：[code.ipynb](./regression.ipynb)
   + 分类：[code.ipynb](./classification.ipynb)
+  + SVM: [code.ipynb](./svm.ipynb)
+  + 神经网络：[code.ipynb](./neural_network.ipynb)
 
-- 神经网络：[code.ipynb](./neural_network.ipynb)
+- 决策树：[code.ipynb](./decision_tree.ipynb)
 
 ## 附加内容
 
