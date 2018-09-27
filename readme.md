@@ -1,4 +1,4 @@
-# LearnAI
+# Learn-ai
 
 存储在学习AI中的例子代码
 
