@@ -7,10 +7,12 @@
 机器学习算法可分为：
 
 - 监督学习算法
-  + 回归：[code.ipynb](./regression.ipynb)
-  + 分类：[code.ipynb](./classification.ipynb)
-
+  - 回归：[code.ipynb](./regression.ipynb)
+  - 分类：[code.ipynb](./classification.ipynb)
+- 无监督算法：
+  - SOM聚类：[code.ipynb](./som.ipynb)
 - 神经网络：[code.ipynb](./neural_network.ipynb)
+- 遗传算法：[code.ipynb](./ga.ipynb)
 
 ## 附加内容
 
