@@ -4,7 +4,7 @@
 
 ## Overview
 
-机器学习算法可分为：
+[机器学习](./machine_learning.ipynb)算法可分为：
 
 - 监督算法
   - 线性回归：[regression.ipynb](./regression.ipynb)
