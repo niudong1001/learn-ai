@@ -9,8 +9,8 @@
 - 监督算法
   - 线性回归：[regression.ipynb](./regression.ipynb)
   - 逻辑回归(分类)：[classification.ipynb](./classification.ipynb)
-  - SVM: [svm.ipynb](./svm.ipynb)
-  - 决策树：[decision_tree.ipynb](./decision_tree.ipynb)
+  - SVM(分类): [svm.ipynb](./svm.ipynb)
+  - 决策树(分类)：[decision_tree.ipynb](./decision_tree.ipynb)
   
 - 无监督算法：
   - SOM聚类：[som.ipynb](./som.ipynb)
