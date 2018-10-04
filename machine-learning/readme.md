@@ -27,3 +27,4 @@
 
 特征处理：[features_process.ipynb](./features_process.ipynb)  
 线性代数：[linear_algebra.ipynb](./linear_algebra.ipynb)
+求解带约束条件的最优解：[optimal_solution_with_constraint.ipynb](./optimal_solution_with_constraint.ipynb)
