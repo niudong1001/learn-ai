@@ -1,11 +1,10 @@
-# Learn-ai
+# Learn-Ai
 
-存储在学习AI中的例子代码
+存储在学习人工智能（AI）中涉及到的各种模型，算法，代码。
 
 ## 1. Machine-Learning
 
 介绍与例子请查看：[Machine Learning](./machine-learning/readme.md)
-
 
 ## 2. Matplotlib
 
@@ -27,8 +26,8 @@ Matplotlib可以画出以下:
 
 ## 3. Opencv
 
-see [opencv](./opencv/readme.md)
+介绍与例子请查看：[Opencv](./opencv/readme.md)
 
 ## 4. Tensorflow
 
-see [tensorflow](./tensorflow/readme.md)
+介绍与例子请查看：[Tensorflow](./tensorflow/readme.md)

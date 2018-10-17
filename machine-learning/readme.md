@@ -1,6 +1,6 @@
 # Machine Learning
 
-本项目用于存储在学习ML过程中的例子
+本目录用于存储在学习ML过程中的各种算法与代码实现。
 
 ## Overview
 
@@ -12,6 +12,7 @@
   - 决策树(分类)：[decision_tree.ipynb](./decision_tree.ipynb) 
 - 无监督算法：
   - SOM聚类：[som.ipynb](./som.ipynb)
+  - K-Means聚类：[k_means.ipynb](./k_means.ipynb)
 - 神经网络：[neural_network.ipynb](./neural_network.ipynb)
 - 遗传算法：[ga.ipynb](./ga.ipynb)
 - 集成学习算法
