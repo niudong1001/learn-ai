@@ -13,6 +13,7 @@
 - 无监督算法：
   - SOM聚类：[som.ipynb](./som.ipynb)
   - K-Means聚类：[k_means.ipynb](./k_means.ipynb)
+  - PCA降维：[pca_ipynb](./pca.ipynb)
 - 神经网络：[neural_network.ipynb](./neural_network.ipynb)
 - 遗传算法：[ga.ipynb](./ga.ipynb)
 - 集成学习算法
