@@ -25,14 +25,14 @@
 
 - [遗传算法（Genetic Algorithm）](./ga.ipynb)：模仿生物进化的**基因交叉**，**基因突变**，**适应度低**的个体会逐渐淘汰，是一种**求复杂问题最优解的算法**，但它**不保证一定能找到全局最优解**。
 
-- 集成学习（Ensemble Learning）：
+- 集成学习（Ensemble Learning）：
 
   - [随机森林（Random Forest）](./random_forest.ipynb)：通过多个决策树集成，并使用**投票机制**获得最好的分类结果，其关键在于决策树生成过程的控制。
   - 梯度提升决策树GBDT： -
 
 ## 附加内容
 
-- [信息论（Information Theory）](./information_theory.ipynb)：包含信息量，信息熵，相对熵，交叉熵等内容。
+- [信息论（Information Theory）](./information_theory.ipynb)：包含信息量，信息熵，相对熵，交叉熵等内容。
 - [线性代数（Linear Algebra）](./linear_algebra.ipynb)：包含向量叉乘点乘，矩阵运算，LP范数等内容。
 - [ML辅助知识](./features_process.ipynb) ：包含特征缩放，正则化，梯度检验，方差(Variance)与偏差(Bias)等内容。
 - [求带约束条件的最优解](./optimal_solution_with_constraint.ipynb)：包含拉格朗日乘子法，KKT条件，拉格朗日对偶等内容。
