@@ -26,7 +26,7 @@ Matplotlib可以画出以下:
 
 ### Examples
 
-查看例子代码与演示：[code.ipynb](./matplotlib/examples.ipynb)
+查看例子代码与演示：[Matplotlib.ipynb](./matplotlib/examples.ipynb)
 
 ## 4. Opencv
 

@@ -5,7 +5,22 @@
 ## 内容列表
 
 - [基本概念](./tf_basic_concept.ipynb)
-- [函数说明](./tf_functions.ipynb)
+
+  - 关于Tensorflow
+  - 使用步骤
+    - 构建图
+    - 执行图计算
+
+- [函数功能说明](./tf_functions.ipynb)
+  - Graph相关:
+  
+    - `tf.Graph.as_default()`: 将某个图设置为默认图。
+    - `tf.Session()`: 运行图，用于评估图中节点的输出结果。
+    - `tf.ConfigProto()`: 为`tf.Session()`添加一些设置。
+
+  - Tensor变换
+  
+    - `tf.concat()`: 在某个维度上连接一组`Tensor`。
 
 ## 使用例子
 
