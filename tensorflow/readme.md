@@ -1,22 +1,11 @@
-# learnTensorflow
-> 参考网址：https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/
+# Learn-Tensorflow
 
-## 依赖
-```
-tensorflow
-python 3+
-```
+存储在学习Tensoflow过程中的概念说明与例子代码。
 
-## Tensorflow概述
-### 总述
-先定义结构，再放入数据运算与Training。
-采用数据流图（data flow graphs）。
-节点（Node）为数学操作，线（edges）表示联系的多维数据数组，即张量（tensor）。
-### 张量
-0维张量即常量为：`[1.]`；1维张量即向量为：`[1, 2]`；2维张量即矩阵：`[[1, 2], [3, 4]]`。
-### 激励函数
-如：relu, sigmoid, tanh等
+## 内容列表
 
-## Eager execution start
-
-快速使用eager execution模式做简单的鸢尾花分类：[code](./tensorflow-official/eager_execution_start.ipynb)
+- [基本概念](./tf_basic_concept.ipynb)
+- [函数说明](./tf_functions.ipynb)
+- 使用例子：
+  - [鸢尾花使用](./tf-official/eager_execution_start.ipynb)
+  - [莫烦教程例子](./tf-mofan/)
