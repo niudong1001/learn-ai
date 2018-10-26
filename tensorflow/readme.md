@@ -1,6 +1,6 @@
 # Learn-Tensorflow
 
-存储在学习Tensoflow过程中的概念说明与例子代码。
+介绍TF的基本概念，常用函数说明及一些TF的应用例子。
 
 ## 内容列表
 
