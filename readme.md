@@ -34,4 +34,4 @@ Matplotlib可以画出以下:
 
 ## 6. Python
 
-介绍一些Python的高级用法与常用工具包的使用，具体请查看[Python](./python/readme.md)。
+介绍一些Python的高级用法与常用工具包的使用，具体请查看：[Python](./python/readme.md)。

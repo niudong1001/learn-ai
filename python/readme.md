@@ -6,7 +6,7 @@
 
 - [Python高级用法](./advanced_usage.ipynb)：
 
-  - `With`块的使用: 为某些块操作加一个wrapper。
+  - `With`块的使用: 为某些块操作加一个wrapper。
 
 - [Python常用工具使用](./tools_usage.ipynb):
 
