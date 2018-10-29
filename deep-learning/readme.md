@@ -8,4 +8,5 @@
 
 ## 附加内容
 
-- Batchnorm: [batch_norm](./batch_norm.ipynb)
+- [Batchnorm](./batch_norm.ipynb)：深度网络中经常使用的一种加速神经网络训练的方法，它可以加速网络收敛的速度及稳定性。
+- [DL Auxiliary](./dl_auxiliary.ipynb)：使用深度学习一些辅助知识。
