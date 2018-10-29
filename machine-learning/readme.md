@@ -10,8 +10,9 @@
 
 - 监督算法（Supervised Learning）：
 
-  - [线性回归（Linear Regression）](./regression.ipynb)：一种使用线性假设函数来预测连续值的算法，可使用: **梯度下降（Gradient Descent）** 或 **正规方程（Normal Equation）** 来求解。
-  - [逻辑回归（Logistic Regression）](./classification.ipynb)：在回归的基础上套用一个非线性映射函数（如Sigmoid）来实现分类效果，代价函数采用**交叉熵**思想，一般用梯度下降求解。
+  - [线性回归（Linear Regression）](./linear_regression.ipynb)：一种使用线性假设函数来预测连续值的算法，代价函数使用**均方误差**，可使用: **梯度下降（Gradient Descent）** 或 **正规方程（Normal Equation）** 来求解。
+  - [逻辑回归（Logistic Regression）](./logistic_regression.ipynb)：在回归的基础上套用一个非线性映射函数（如Sigmoid）来实现分类效果，代价函数采用**交叉熵**思想，一般用梯度下降求解。
+  - [Softmax分类](./softmax_classification.ipynb)：softmax则使用$n$（其中$n$等于分类数目）个回归模型组合起来实现多分类，产生属于各个类的概率。
   - [支持向量机SVM](./svm.ipynb)： 一种可寻找到**最优决策面**的分类算法，其求解可以转化为带有**不等式约束的求最优解的问题**。
   - [决策树（Decision Tree）](./decision_tree.ipynb) ：一种使用树结构来完成分类的算法，其关键步骤在于：**属性的选择与属性的分裂**。
 

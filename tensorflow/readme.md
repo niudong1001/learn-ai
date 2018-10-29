@@ -12,18 +12,23 @@
     - 构建图
     - 执行图计算
 
-- [函数功能说明](./tf_functions.ipynb):
-
-  - Graph相关:
+- 函数功能说明:
+  
+  - [Graph相关](./tf_graph_ops.ipynb):
   
     - `tf.Graph.as_default()`: 将某个图设置为默认图。
     - `tf.Session()`: 运行图，用于评估图中节点的输出结果。
     - `tf.ConfigProto()`: 为`tf.Session()`添加一些设置。
     - `tf.GPUOptions()`: 设置`tf.ConfigProto()`中GPU部分。
 
-  - Tensor变换:
+  - [Tensor变换](./tf_tensor_ops.ipynb):
   
     - `tf.concat()`: 在某个维度上连接一组`Tensor`。
+    - `tf.transpose()`: 对张量中的维度进行调换，当张量为2维，相当于转置。
+    
+  - [神经网络](./tf_nn_ops.ipynb):
+  
+    - `tf.nn.softmax()`: 计算Tensor某一维度上的softmax激活值。
 
 ## 使用例子
 
