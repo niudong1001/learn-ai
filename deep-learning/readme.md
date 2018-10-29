@@ -8,5 +8,5 @@
 
 ## 附加内容
 
+- [DL Auxiliary](./dl_auxiliary.ipynb)：包括使用深度学习一些辅助知识，如Dropout,Spatial Softmax, Xavier权值初始化等。
 - [Batchnorm](./batch_norm.ipynb)：深度网络中经常使用的一种加速神经网络训练的方法，它可以加速网络收敛的速度及稳定性。
-- [DL Auxiliary](./dl_auxiliary.ipynb)：包括使用深度学习一些辅助知识，如Dropout,Spatial Softmax等。
