@@ -42,6 +42,6 @@ Matplotlib可以画出以下:
 
 点击[Matplotlib.ipynb](./matplotlib/examples.ipynb)查看画出上面各种图的例子代码。
 
-## 8.Numpy
+## 8. Numpy
 
 介绍了Numpy中常用函数的使用，具体请查看：[Numpy](./numpy/readme.md)。

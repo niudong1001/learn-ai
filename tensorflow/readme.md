@@ -11,6 +11,8 @@
 
     - 构建图
     - 执行图计算
+  - 交互式使用
+  - 变量的创建，初始化，保存和加载
 
 - 函数功能说明:
   
@@ -25,10 +27,17 @@
   
     - `tf.concat()`: 在某个维度上连接一组`Tensor`。
     - `tf.transpose()`: 对张量中的维度进行调换，当张量为2维，相当于转置。
-    
-  - [神经网络](./tf_nn_ops.ipynb):
+    - `tf.convert_to_tensor()`: 将一个非Tensor数据值转化为`Tensor`类型。
+    - `tf.cast`: 转换一个Tensor的数据类型。
+
+  - [NN神经网络相关](./tf_nn_ops.ipynb):
   
     - `tf.nn.softmax()`: 计算Tensor某一维度上的softmax激活值。
+
+  - [Train相关](./tf_train_ops.ipynb):
+
+    - `tf.train.string_input_producer`: 相较于`feed_dict`的另一种数据输入方式。输出字符串列表(如文件名称)到一个输入管道队列中。
+    - `tf.train.batch`: 创建张量Batch。
 
 ## 使用例子
 
