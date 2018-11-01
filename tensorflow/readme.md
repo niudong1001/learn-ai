@@ -28,8 +28,9 @@
     - `tf.concat()`: 在某个维度上连接一组`Tensor`。
     - `tf.transpose()`: 对张量中的维度进行调换，当张量为2维，相当于转置。
     - `tf.convert_to_tensor()`: 将一个非Tensor数据值转化为`Tensor`类型。
-    - `tf.cast`: 转换一个Tensor的数据类型。
-
+    - `tf.cast()`: 转换一个Tensor的数据类型。
+    - `tf.get_variable()`: 获取一个已经存在的变量或者建立一个新的变量. 这个函数可以配合variable scope进行变量重用.
+    
   - [NN神经网络相关](./tf_nn_ops.ipynb):
   
     - `tf.nn.softmax()`: 计算Tensor某一维度上的softmax激活值。
@@ -38,6 +39,11 @@
 
     - `tf.train.string_input_producer`: 相较于`feed_dict`的另一种数据输入方式。输出字符串列表(如文件名称)到一个输入管道队列中。
     - `tf.train.batch`: 创建张量Batch。
+   
+  - [Distribution相关](./tf_distribution_ops.ipynb)
+    - `tf.random_normal`: 返回正太分布区域的随机值.
+    - `tf.truncated_normal`: 返回截断正太分布区域的随机值. 所谓截断表示**如果生成的值大于平均值周围2个标准偏差的值则丢弃重新选择**。
+
 
 ## 使用例子
 
