@@ -4,7 +4,8 @@
 
 ## Overview
 
-- CNN: [CNN](./cnn.ipynb)
+- [卷积神经网络CNN](./cnn.ipynb): 介绍了卷积神经网络中会使用的卷积(Conv)与池化(Pool)操作以及涉及到的padding填充,stride步长等概念.
+- [CNN发展史](./cnn_history.ipynb): 介绍了CNN的发展历史.
 
 ## 附加内容
 
