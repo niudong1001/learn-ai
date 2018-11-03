@@ -33,4 +33,4 @@
 
 ## 附加内容
 
-- [ML辅助知识](./features_process.ipynb) ：包含特征缩放，正则化，梯度检验，方差(Variance)与偏差(Bias)等内容。
+- [ML辅助知识](./ml_auxiliary.ipynb) ：包含特征缩放，正则化(l1, l2)，梯度检验，方差(Variance)与偏差(Bias)等内容。
