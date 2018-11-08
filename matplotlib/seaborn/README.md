@@ -29,7 +29,7 @@ import seaborn as sns
 
 ## 例子
 
-参见 [examples.ipynb](./example.ipynb)
+参见 [examples.ipynb](./examples.ipynb)
 
 
 
