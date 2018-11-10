@@ -6,6 +6,7 @@
 
 - [卷积神经网络CNN](./cnn.ipynb): 卷积神经网络(CNN), 是一种主要用于处理图像的深度神经网络. 其网络结构主要包括**卷积(Conv)操作**与**池化(Pool)操作**, 其中卷积操作可能涉及到**filter卷积核的学习**, **stride步长**与**padding填充**的选择.
 - [CNN结构发展史](./cnn_history.ipynb): 介绍了CNN结构的发展历史, 介绍顺序依次是LeNet-5, AlexNet, VGG-net, GoogleNet, ResNet, DenseNet.
+- [循环神经网络RNN](./rnn.ipynb): RNN是一种主要用于处理**时序数据**的深度模型。文中通过命名实体识别这一任务来介绍RNN结构。
 
 ## 附加内容
 
