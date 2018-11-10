@@ -54,6 +54,8 @@
     - `tf.contrib.layers.xavier_initializer()`: 返回一个初始化器, 其可以对权值实现的Xavier初始化.
     - `tf.contrib.layers.batch_norm()`: 对`conv2d`或者`fullu_connected`层进行batch归一化.
 
+  - [tf dbg调试](./tf_dbg.py): 一种tensorflow带的调试方法.
+
 ## 使用例子
 
 - [鸢尾花使用](./tf-official/eager_execution_start.ipynb)
