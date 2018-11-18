@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../arm-control/.idea/arm-control.iml" filepath="$PROJECT_DIR$/../arm-control/.idea/arm-control.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/learnAI.iml" filepath="$PROJECT_DIR$/.idea/learnAI.iml" />
     </modules>
   </component>

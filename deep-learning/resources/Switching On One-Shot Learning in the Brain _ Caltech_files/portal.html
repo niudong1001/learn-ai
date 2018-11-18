@@ -1,0 +1,28 @@
+
+<!-- saved from url=(0057)https://c.sharethis.mgr.consensu.org/v1.0/cmp/portal.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script>
+    // Send a message to the parent
+    var sendMessage = function (event, value) {
+       window.parent.postMessage({
+         domain: 'sharethis.mgr.consensu.org',
+         event: event,
+         value: value 
+       }, '*');
+    };
+
+    function readCookie() {
+      var value = '; ' + document.cookie;
+      var parts = value.split('; euconsent=');
+      if (parts.length === 2) {
+        sendMessage('EU_CONSENT_COOKIE', parts.pop().split(';').shift());
+      } else {
+        sendMessage('EU_CONSENT_COOKIE', '');
+      }
+    }
+    readCookie();
+  </script>
+</head>
+<body>
+
+</body></html>
