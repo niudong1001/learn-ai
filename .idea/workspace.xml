@@ -3,12 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="dac0aa26-2b90-4ace-990e-9f6cdeeaa026" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../arm-control/python-utils" beforeDir="false" afterPath="$PROJECT_DIR$/../arm-control/python-utils" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/learnAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learnAI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reinforcement-learning/introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/reinforcement-learning/introduction.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow/.ipynb_checkpoints/tf_tensor_ops-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow/.ipynb_checkpoints/tf_tensor_ops-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow/tf_tensor_ops.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow/tf_tensor_ops.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../maml/data_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../maml/data_generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../maml/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../maml/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maml/maml.py" beforeDir="false" afterPath="$PROJECT_DIR$/../maml/maml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maml/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../maml/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +20,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../maml/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="115">
+              <caret line="233" column="32" selection-start-line="233" selection-start-column="32" selection-end-line="233" selection-end-column="32" />
+              <folding>
+                <element signature="e#1805#1815#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maml.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../maml/maml.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="50" />
+              <folding>
+                <element signature="e#61#98#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,8 +47,8 @@
       <file leaf-file-name="data_generator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../maml/data_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1114">
-              <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+            <state relative-caret-position="2579">
+              <caret line="169" column="40" selection-start-line="169" selection-start-column="40" selection-end-line="169" selection-end-column="40" />
               <folding>
                 <element signature="e#31#49#0" expanded="true" />
               </folding>
@@ -54,13 +70,17 @@
       </file>
       <file leaf-file-name="proc_images.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../maml/data/miniImagenet/proc_images.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-113" />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="maml.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../maml/maml.py">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../maml/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32" />
+            <state relative-caret-position="370">
+              <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -72,7 +92,13 @@
       <find>generate_sinusoid_batch</find>
       <find>Sample larger than population or is negative</find>
       <find>num_classes</find>
+      <find>update_batch_size</find>
+      <find>meta_batch_size</find>
       <find>folders</find>
+      <find>baseline</find>
+      <find>num_updates</find>
+      <find>test_num_updates</find>
+      <find>prefix</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,8 +107,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/../maml/utils.py" />
         <option value="$PROJECT_DIR$/../maml/data_generator.py" />
         <option value="$PROJECT_DIR$/../maml/main.py" />
+        <option value="$PROJECT_DIR$/../maml/maml.py" />
       </list>
     </option>
   </component>
@@ -92,10 +120,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="23" />
-    <option name="width" value="826" />
-    <option name="height" value="801" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -110,23 +137,6 @@
             <path>
               <item name="learn-ai" type="b2602c69:ProjectViewProjectNode" />
               <item name="maml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maml" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maml" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="miniImagenet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maml" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="omniglot_resized" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -166,7 +176,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="826" height="801" extended-state="1" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -177,7 +187,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.27906978" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -231,14 +241,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../maml/maml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../maml/data/miniImagenet/proc_images.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../maml/data/omniglot_resized/resize_images.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -249,10 +251,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../maml/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../maml/data/miniImagenet/proc_images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../maml/data_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1114">
-          <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+        <state relative-caret-position="2579">
+          <caret line="169" column="40" selection-start-line="169" selection-start-column="40" selection-end-line="169" selection-end-column="40" />
           <folding>
             <element signature="e#31#49#0" expanded="true" />
           </folding>
@@ -261,8 +275,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../maml/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="115">
+          <caret line="233" column="32" selection-start-line="233" selection-start-column="32" selection-end-line="233" selection-end-column="32" />
+          <folding>
+            <element signature="e#1805#1815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../maml/maml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="50" />
+          <folding>
+            <element signature="e#61#98#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

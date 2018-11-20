@@ -34,6 +34,8 @@
     - `tf.gather()`: 根据索引从参数轴上收集切片.
     - `tf.gradients()`: 计算`ys`张量列表对于`xs`张量列表的偏导数.
     - `tf.zeros_like()`: 建立跟输入张量`dtype`与`shape`一样但所有元素都是0的张量.
+    - `tf.stop_gradient()`: 在构建计算梯度的op时，此op防止将其输入的贡献考虑在内.
+    - `tf.placeholder_with_default()`: 当没有输入feed的时候，使用`input`参数给的值.
 
   - [NN神经网络相关](./tf_nn_ops.ipynb):
   
