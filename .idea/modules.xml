@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/../arm-control/.idea/arm-control.iml" filepath="$PROJECT_DIR$/../arm-control/.idea/arm-control.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/learnAI.iml" filepath="$PROJECT_DIR$/.idea/learnAI.iml" />
       <module fileurl="file://$PROJECT_DIR$/../maml/.idea/maml.iml" filepath="$PROJECT_DIR$/../maml/.idea/maml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../maml_rewrite/.idea/maml_rewrite.iml" filepath="$PROJECT_DIR$/../maml_rewrite/.idea/maml_rewrite.iml" />
     </modules>
   </component>
 </project>
