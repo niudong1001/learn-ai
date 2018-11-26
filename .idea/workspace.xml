@@ -4,12 +4,11 @@
     <list default="true" id="dac0aa26-2b90-4ace-990e-9f6cdeeaa026" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../arm-control/python-utils" beforeDir="false" afterPath="$PROJECT_DIR$/../arm-control/python-utils" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine-learning/bayes_network.md" beforeDir="false" afterPath="$PROJECT_DIR$/machine-learning/bayes_network.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../maml/data_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../maml/data_generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../maml/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../maml/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../maml/maml.py" beforeDir="false" afterPath="$PROJECT_DIR$/../maml/maml.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../maml/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../maml/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maml_rewrite/maml.py" beforeDir="false" afterPath="$PROJECT_DIR$/../maml_rewrite/maml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maml_rewrite/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../maml_rewrite/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.4219355">
+    <splitter split-orientation="vertical" split-proportion="0.4180645">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
@@ -46,7 +45,7 @@
           <file leaf-file-name="mil.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../arm-control/mil.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="194">
+                <state relative-caret-position="64">
                   <caret line="141" column="60" selection-start-line="141" selection-start-column="60" selection-end-line="141" selection-end-column="60" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
@@ -76,7 +75,7 @@
           <file leaf-file-name="maml.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../maml_rewrite/maml.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-571">
+                <state relative-caret-position="-863">
                   <caret line="186" column="39" selection-start-line="186" selection-start-column="39" selection-end-line="186" selection-end-column="39" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
@@ -162,14 +161,6 @@
           <expand>
             <path>
               <item name="learn-ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arm-control" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-ai" type="b2602c69:ProjectViewProjectNode" />
               <item name="maml_rewrite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -212,7 +203,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -414,7 +404,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../arm-control/mil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="64">
           <caret line="141" column="60" selection-start-line="141" selection-start-column="60" selection-end-line="141" selection-end-column="60" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -439,7 +429,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../maml_rewrite/maml.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-571">
+        <state relative-caret-position="-863">
           <caret line="186" column="39" selection-start-line="186" selection-start-column="39" selection-end-line="186" selection-end-column="39" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
