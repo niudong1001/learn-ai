@@ -6,5 +6,6 @@
     <orderEntry type="module" module-name="arm-control" />
     <orderEntry type="module" module-name="maml" />
     <orderEntry type="module" module-name="maml_rewrite" />
+    <orderEntry type="module" module-name="python-utils" />
   </component>
 </module>

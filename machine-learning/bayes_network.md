@@ -30,6 +30,38 @@
 
 整张图可表示为$G=(I, E)$，其中$I$表示了所有节点的集合，$E$表示所有连接线的集合。节点$i$表示的随机变量可表示为$x_i$，所有节点的联合概率为：$p(X)=\sum_{i\in I}p(x_i|x_{pa(i)})$，上图中$p(a, b, c)=p(c|a,b)p(b|a)p(a)$。
 
+### 贝叶斯网络的3种结构形式
+
+贝叶斯网络存在如下三种结构形式：
+
+<div style="text-align:center"><img src="./resources/bn2.png" style="width:80%;"></div>
+
+- Head-to-head：c未知，a与b相互独立
+- Tail-to-tail：c未知，a与b不独立；c已知，a与b独立
+- Head-to-tail：c未知，a与b不独立；c已知，a与b独立
+
+推广到所有节点，对于任意的结点集A，B，C，考察所有通过A中任意结点到B中任意结点的路径，若要求A，B条件独立，则需要所有的路径都被阻断(blocked)，即满足下列两个前提之一：
+
+- A和B的“head-to-tail型”和“tail-to-tail型”路径都通过C
+- A和B的“head-to-head型”路径不通过C以及C的子孙
+
+### 因子图
+
+因子图就是对函数进行因子分解得到的一种概率图。一般内含两种节点：变量节点和函数节点。我们知道，一个全局函数通过因式分解能够分解为多个局部函数的乘积，这些局部函数和对应的变量关系就体现在因子图上，假设有函数：
+
+> $g(x_1,x_2,x_3)=f_a(x_1)f_b(x_2)f_c(x_1,x_2)f_d(x_2,x_3)$
+
+其因子图可画成：
+
+<div style="text-align:center"><img src="./resources/bn3.png" style="width:70%;"></div>
+
+因子图跟贝叶斯网络，马尔科夫随机场，条件随机场一样，都是概率图的一种。其区别在于：
+
+- 有向图模型，又称作贝叶斯网络（Directed Graphical Models, DGM, Bayesian Network）
+- 无向图模型（Undirected Graphical Model,UGM）, 又被称为马尔科夫随机场或者马尔科夫网络（Markov Random Field, MRF or Markov network）
+
+待补充...
+
 ## 参考文献
 
 - [非常全面的贝叶斯网络介绍](https://www.cnblogs.com/princessd8251/articles/7569541.html)
