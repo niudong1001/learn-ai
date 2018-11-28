@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dac0aa26-2b90-4ace-990e-9f6cdeeaa026" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../maml_rewrite/data_generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../arm-control/python-utils" beforeDir="false" afterPath="$PROJECT_DIR$/../arm-control/python-utils" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/learnAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learnAI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maml_rewrite/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../maml_rewrite/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../maml_rewrite/maml.py" beforeDir="false" afterPath="$PROJECT_DIR$/../maml_rewrite/maml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maml_rewrite/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../maml_rewrite/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,76 +14,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.44258064">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="maml.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../maml_rewrite/maml.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="555">
-                  <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
-                  <folding>
-                    <element signature="e#0#18#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="maml.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../maml/maml.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="112">
-                  <caret line="184" column="28" selection-start-line="184" selection-start-column="22" selection-end-line="184" selection-end-column="28" />
-                  <folding>
-                    <element signature="e#61#98#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../maml/utils.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-39">
-                  <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="73" />
-                  <folding>
-                    <element signature="e#27#45#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="maml.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../maml_rewrite/maml.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="258">
-                  <caret line="224" column="58" selection-start-line="224" selection-start-column="58" selection-end-line="224" selection-end-column="58" />
-                  <folding>
-                    <element signature="e#0#18#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../maml_rewrite/utils.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46">
-                  <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
-                  <folding>
-                    <element signature="e#27#45#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="maml.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../maml_rewrite/maml.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3213">
+              <caret line="119" column="40" selection-start-line="119" selection-start-column="40" selection-end-line="119" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -120,8 +58,8 @@
       <find>init_weights</find>
       <find>self.gvs</find>
       <find>MaxPoolGrad</find>
-      <find>weights_name</find>
       <find>reuse</find>
+      <find>weights_name</find>
       <find>prefix</find>
     </findStrings>
     <replaceStrings>
@@ -130,7 +68,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../maml" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../maml_rewrite" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -168,10 +106,6 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="learn-ai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arm-control" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="learn-ai" type="b2602c69:ProjectViewProjectNode" />
               <item name="maml_rewrite" type="462c0819:PsiDirectoryNode" />
@@ -489,22 +423,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../maml_rewrite/maml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../maml/maml.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="184" column="28" selection-start-line="184" selection-start-column="22" selection-end-line="184" selection-end-column="28" />
           <folding>
             <element signature="e#61#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../maml_rewrite/maml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="119" column="40" selection-start-line="119" selection-start-column="40" selection-end-line="119" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
