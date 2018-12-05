@@ -4,4 +4,5 @@
 
 - [强化学习数学符号](./notation.ipynb)：介绍强化学习中会使用的数学符号。
 - [强化学习介绍](./introduction1.ipynb)：介绍强化学习的基本概念，四元素等。
-- [马尔科夫决策过程MDP](./markov_decision.ipynb)：介绍马尔科夫决策过程（Markov decision process）。
+- [马尔科夫决策过程MDP](./markov_decision.ipynb)：介绍马尔科夫决策过程（Markov decision process），其核心在于假设下一个状态与奖励只由当前状态与选择的动作所决定，这个假设就大大简化了强化学习问题，便于建模与计算。
+- [动态规划](./dynamic_program.ipynb)：介绍通用策略迭代(DPI)，其是强化学习的核心思想，主要在两个循环交互的过程，**迭代策略评估**和**迭代策略优化**。
