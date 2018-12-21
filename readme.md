@@ -14,25 +14,26 @@
 
 介绍了常见的DNN模型，以及训练DNN的一些技巧。具体介绍与例子请查看：[深度学习（Deep Learning）](./deep-learning/readme.md)。
 
-## 4. Deep Learning Framework
+## 4. Reinforcement Learning
+
+介绍RL的基础知识与常见的算法，如Q-Learning，Sarsa，Sarsa(lambda)，DQN，Policy Gradients，Actor-critic等。具体请查看：[强化学习（Reinforcement Learning）](./reinforcement-learning/readme.md)。
+
+## 5. Deep Learning Framework
 
 介绍一些常用的深度学习库，如Tensorflow。
 
 - [Tensorflow](./tensorflow/readme.md)：介绍TF的基本概念，常用函数说明及一些TF的应用例子。
 
-## 5. Reinforcement Learning
 
-介绍RL的基础知识与常见的算法，如Q-Learning，Sarsa，Sarsa(lambda)，DQN，Policy Gradients，Actor-critic等。具体请查看：[强化学习（Reinforcement Learning）](./reinforcement-learning/readme.md)
-
-## 5. OpenCV库
+## 6. OpenCV库
 
 介绍与例子请查看：[OpenCV库](./opencv/readme.md)。
 
-## 6. Python与辅助库
+## 7. Python与辅助库
 
 介绍一些Python的高级用法与常用工具包的使用，具体请查看：[Python](./python/readme.md)。
 
-## 7. Matplotlib
+## 8. Matplotlib
 
 Matplotlib可以画出以下:
 
@@ -46,6 +47,6 @@ Matplotlib可以画出以下:
 
 点击[Matplotlib.ipynb](./matplotlib/examples.ipynb)查看画出上面各种图的例子代码。
 
-## 8. Numpy
+## 9. Numpy
 
 介绍了Numpy中常用函数的使用，具体请查看：[Numpy](./numpy/readme.md)。
