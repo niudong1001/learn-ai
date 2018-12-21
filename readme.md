@@ -14,11 +14,15 @@
 
 介绍了常见的DNN模型，以及训练DNN的一些技巧。具体介绍与例子请查看：[深度学习（Deep Learning）](./deep-learning/readme.md)。
 
-## 4. DL Framework
+## 4. Deep Learning Framework
 
 介绍一些常用的深度学习库，如Tensorflow。
 
 - [Tensorflow](./tensorflow/readme.md)：介绍TF的基本概念，常用函数说明及一些TF的应用例子。
+
+## 5. Reinforcement Learning
+
+介绍RL的基础知识与常见的算法，如Q-Learning，Sarsa，Sarsa(lambda)，DQN，Policy Gradients，Actor-critic等。具体请查看：[强化学习（Reinforcement Learning）](./reinforcement-learning/readme.md)
 
 ## 5. OpenCV库
 

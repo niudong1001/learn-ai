@@ -21,8 +21,6 @@
   - [SOM聚类](./som.ipynb)：一种自组织映射（Self-Organizing Mapping）的聚类算法，其核心在于**相似度比较**与**获胜节点在拓扑邻域内向样本值更新**。
   - [K-Means聚类](./k_means.ipynb)：一种迭代的寻找聚类中心的算法，难点在于**初始化问题**与**聚类数目的选择**。
   - [PCA降维](./pca.ipynb)：寻找能更好表示数据集的特征，按照特征表达能力从优到劣选择合适的特征数目以实现降维，降维的目的一般为：**数据压缩**与**数据可视化**。
- 
-- [强化学习（Reinforcement Learning）](./reinforcement-learning/introduction.ipynb)：它的本质是解决**Decision Making问题**。使用它可以让计算机从一开始什么都不懂，通过不断的与环境交互，试错，累积经验，学习经验，最终学习到一个最优策略，这个策略可以在与环境的交互中获得更高的奖励。
 
 - [神经网络（Neural Network）](./neural_network.ipynb)：为了应付传统机器学习处理不了的海量数据的情况，其代价函数与逻辑回归相似，并使用BP算法训练。
 
