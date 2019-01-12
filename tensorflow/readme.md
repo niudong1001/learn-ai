@@ -57,6 +57,11 @@
     - `tf.contrib.layers.batch_norm()`: 对`conv2d`或者`fullu_connected`层进行batch归一化.
 
   - [tf dbg调试](./tf_dbg.py): 一种tensorflow带的调试方法.
+  
+  - [Optimizer优化器相关(梯度计算)](./tf_train_optimizer.ipynb)
+    > 包含常见的优化器，及其手写方法。
+    - `tf.train.MomentumOptimizer()`: Momentum动量学习方法.
+    - `tf.train.AdagradOptimizer()`: Adagrad学习方法.
 
 ## 使用例子
 
