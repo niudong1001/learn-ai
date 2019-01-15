@@ -12,6 +12,7 @@
 
   - [线性回归（Linear Regression）](./linear_regression.ipynb)：一种使用线性假设函数来预测连续值的算法，代价函数使用**均方误差**，可使用: **梯度下降（Gradient Descent）** 或 **正规方程（Normal Equation）** 来求解。
   - [逻辑回归（Logistic Regression）](./logistic_regression.ipynb)：在回归的基础上套用一个非线性映射函数（如Sigmoid）来实现分类效果，代价函数采用**交叉熵**思想，一般用梯度下降求解。
+  - [K近邻](./k_nearest_neighbor.ipynb)：一种通过简单的距离度量的方式来进行分类或回归的机器学习算法，其并不需要找出模型是什么样子的。
   - [Softmax分类](./softmax_classification.ipynb)：softmax则使用n（其中n等于分类数目）个回归模型组合起来实现多分类，产生属于各个类的概率。
   - [支持向量机SVM](./svm.ipynb)： 一种可寻找到**最优决策面**的分类算法，其求解可以转化为带有**不等式约束的求最优解的问题**。
   - [决策树（Decision Tree）](./decision_tree.ipynb) ：一种使用树结构来完成分类的算法，其关键步骤在于：**属性的选择与属性的分裂**。
@@ -21,7 +22,6 @@
   - [SOM聚类](./som.ipynb)：一种自组织映射（Self-Organizing Mapping）的聚类算法，其核心在于**相似度比较**与**获胜节点在拓扑邻域内向样本值更新**。
   - [K-Means聚类](./k_means.ipynb)：一种迭代的寻找聚类中心的算法，难点在于**初始化问题**与**聚类数目的选择**。
   - [PCA降维](./pca.ipynb)：寻找能更好表示数据集的特征，按照特征表达能力从优到劣选择合适的特征数目以实现降维，降维的目的一般为：**数据压缩**与**数据可视化**。
-  - [K近邻](./k_nearest_neighbor.ipynb)：一种通过简单的距离度量的方式来进行分类或回归的机器学习算法。
 
 - [神经网络（Neural Network）](./neural_network.ipynb)：为了应付传统机器学习处理不了的海量数据的情况，其代价函数与逻辑回归相似，并使用BP算法训练。
 
